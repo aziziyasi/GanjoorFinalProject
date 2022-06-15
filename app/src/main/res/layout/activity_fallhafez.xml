@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pictwo"
+    tools:context=".FallHafezActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="398dp"
+        android:layout_height="287dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29">
+
+        <TextView
+            android:id="@+id/txt_qazal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/thulth"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/txt_tabirfallshoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="تعبیر فال حافظ شما"
+        android:textAlignment="center"
+        android:textColor="#244d51"
+        android:textSize="25sp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView2"
+        android:layout_width="311dp"
+        android:layout_height="178dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888">
+
+        <TextView
+            android:id="@+id/txt_tabir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="ای صاحب فال؛ دوران به کام توست. تو هر آنچه را که می خواهی در کنار داری و غصه و اندوه از دلت رخت بربسته است. آنچه که داری لیاقت توست . این روزگار خوش، گوارایت باد . "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/txt_shomareqazal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/b612"
+        android:text="غزل شماره"
+        android:textColor="#244d51"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/img_refresh"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/refresh" />
+</androidx.constraintlayout.widget.ConstraintLayout>
